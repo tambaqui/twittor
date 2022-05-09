@@ -13,6 +13,13 @@
     width: 100%;
 }
 
+body {
+  overscroll-behavior-y: contain;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
 /* Personalizados */
 .oculto {
   display: none !important;
